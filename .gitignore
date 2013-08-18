@@ -11,3 +11,10 @@
 *.lai
 *.la
 *.a
+
+# gedit backups
+*~
+
+# Solutions
+test01/test01
+test02/test02
