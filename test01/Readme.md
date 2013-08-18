@@ -60,6 +60,4 @@ and thus is not considered by the linker as an implementation of
 Thus while _clang_ follows the `__asm__` directive, the goal of being able
 to use a template to replace a function from a different object file at
 link time was not attained.
-However `test02` will explore a different way of reaching this goal using
-_clang_'s apparent support for the `__asm__` directive in conjunction with
-templates.
+The search for a solution to make this work, at least with `clang` is ongoing.
